@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Cabeçalho */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4a90e2;
+  }
+  
+  /* Formulário */
+  form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto 20px;
+  }
+  
+  form input,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  form input:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  form button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #357abd;
+  }
+  
+  /* Tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  table thead {
+    background-color: #4a90e2;
+    color: #fff;
+  }
+  
+  table th,
+  table td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  table button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    form {
+      padding: 15px;
+    }
+  
+    table th,
+    table td {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
